@@ -20,9 +20,32 @@ html {
 }
 
 body {
-  margin: 0;
+
 }
 
 .img-flex {
   display: block;
+}
+
+h1 {
+  font-family: "altesse-std-64pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment (optional) */
+}
+
+ul li {
+  display: inline-block; /* Makes the items sit next to each other */
+  padding: 10px; /* Adds space around the items */
+  
 }
