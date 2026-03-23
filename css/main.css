@@ -15,6 +15,7 @@ html {
   font-family: "meno-banner-extra-condensed", serif;
   font-weight: 400;
   font-style: normal;
+  color: #4b1428;
 }
 
 *, *::before, *::after {
@@ -44,13 +45,26 @@ ul {
   justify-content: center; /* Horizontal alignment (optional) */
 }
 
-ul.nav {
-  margin-bottom: 5px;
-  margin-left: 35px;
-}
 
 ul li {
   display: inline-block; /* Makes the items sit next to each other */
   padding: 10px; /* Adds space around the items */
 
+}
+
+.nav a{
+  color: #4b1428;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+
+@media only screen and (min-width: 38em) {
+  ul.nav {
+    margin-bottom: 5px;
+    margin-left: 35px;
+  }
 }
