@@ -12,14 +12,13 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #efeae1;
+  font-family: "meno-banner-extra-condensed", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-
-}
-
-body {
 
 }
 
@@ -32,6 +31,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  margin-top: 0;
 }
 
 ul {
@@ -44,8 +44,13 @@ ul {
   justify-content: center; /* Horizontal alignment (optional) */
 }
 
+ul.nav {
+  margin-bottom: 5px;
+  margin-left: 35px;
+}
+
 ul li {
   display: inline-block; /* Makes the items sit next to each other */
   padding: 10px; /* Adds space around the items */
-  
+
 }
