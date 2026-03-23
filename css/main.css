@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #efeae1;
-  font-family: "meno-banner-extra-condensed", serif;
+  font-family: "fiona", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #4b1428;
@@ -55,6 +55,40 @@ ul li {
 .nav a{
   color: #4b1428;
   text-decoration: none;
+  font-family: "meno-banner-extra-condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.homepage-box1{
+  height: 400px;
+}
+
+.homepage-box2{
+  background-color: #4b1428;
+  color: white;
+  padding: 20px;
+  height: 400px;
+
+}
+
+.inside-homepage-box2 {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 360px
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50%;
+}
+
+body {
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -66,5 +100,10 @@ ul li {
   ul.nav {
     margin-bottom: 5px;
     margin-left: 35px;
+  }
+
+  ul li {
+    padding: 40px; /* Adds space around the items */
+
   }
 }
