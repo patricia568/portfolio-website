@@ -12,8 +12,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #efeae1;
-  font-family: "fiona", sans-serif;
-  font-weight: 400;
+  font-family: "meno-banner", serif;
+  font-weight: 300;
   font-style: normal;
   color: #4b1428;
 }
@@ -33,6 +33,7 @@ h1 {
   font-style: normal;
   text-align: center;
   margin-top: 0;
+  color: #efeae1;
 }
 
 ul {
@@ -65,10 +66,6 @@ ul li {
 }
 
 .homepage-box1{
-  height: 400px;
-}
-
-.homepage-box2{
   background-color: #4b1428;
   color: white;
   padding: 20px;
@@ -76,10 +73,14 @@ ul li {
 
 }
 
-.inside-homepage-box2 {
-  border: 1px solid white;
+.inside-homepage-box1 {
+  border: 1px solid #efeae1;
   border-radius: 10px;
   height: 360px
+}
+
+.inside-homepage-box1 p {
+  color: #efeae1;
 }
 
 .profile-pic {
@@ -97,13 +98,33 @@ body {
 
 
 @media only screen and (min-width: 38em) {
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   ul.nav {
     margin-bottom: 5px;
     margin-left: 35px;
   }
 
   ul li {
-    padding: 40px; /* Adds space around the items */
+    padding: 40px;
 
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 130%;
   }
 }
