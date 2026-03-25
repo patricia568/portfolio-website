@@ -4,6 +4,33 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+/*  fonts:
+font-family: "lust-didone", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "lust-didone", serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: "lust-didone-fine", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+font-family: "lust-didone-fine", sans-serif;
+font-weight: 100;
+font-style: italic;
+
+font-family: "lust-display-didone", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "lust-display-didone", serif;
+font-weight: 400;
+font-style: italic;
+
+
+*/
 html {
   box-sizing: border-box;
 
@@ -12,7 +39,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #efeae1;
-  font-family: "meno-banner", serif;
+  font-family: "acumin-pro", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #4b1428;
@@ -25,6 +52,7 @@ html {
 
 .img-flex {
   display: block;
+  max-width: 100%;
 }
 
 h1 {
@@ -32,8 +60,16 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin-top: 0;
-  color: #efeae1;
+  margin-top: 15px;
+  color: #4b1428;
+  margin-bottom: 0;
+  font-size: 50em;
+}
+
+h2 {
+  font-family: "lust-didone", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul {
@@ -56,40 +92,37 @@ ul li {
 .nav a{
   color: #4b1428;
   text-decoration: none;
-  font-family: "meno-banner-extra-condensed", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
-.logo {
-  max-width: 100px;
-}
-
-.homepage-box1{
-  background-color: #4b1428;
-  color: white;
-  padding: 20px;
-  height: 400px;
-
-}
-
-.inside-homepage-box1 {
-  border: 1px solid #efeae1;
-  border-radius: 10px;
-  height: 360px
-}
-
-.inside-homepage-box1 p {
-  color: #efeae1;
-}
-
-.profile-pic {
-  border-radius: 50%;
-  width: 50%;
-}
 
 body {
   margin: 0;
+}
+
+.offering {
+  color: #604f56;
+}
+
+.touch {
+  color: #604f56;
+}
+
+.projects {
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid #4b1428;
+  border-radius: 10px;
+  padding: 1em;
+  color: #4b1428;
+  text-decoration: none;
+}
+
+
+.btn-container {
+  text-align: center;
+  margin-top: 2em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -113,6 +146,9 @@ body {
 
   }
 
+  .logo {
+    max-width: 90px;
+  }
 
 }
 
@@ -121,10 +157,21 @@ body {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  .intro-box {
+    margin-left: 20px;
+  }
+
+
+  .logo {
+    max-width: 110px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
   html {
     font-size: 130%;
   }
+
+
 }
