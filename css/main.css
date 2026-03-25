@@ -92,6 +92,9 @@ ul li {
 .nav a{
   color: #4b1428;
   text-decoration: none;
+  font-family: "lust-didone", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -100,23 +103,24 @@ body {
 }
 
 .offering {
-  color: #604f56;
+  color: #89636D;
 }
 
 .touch {
-  color: #604f56;
+  color: #89636D;
 }
 
-.projects {
-  text-align: center;
-}
+
 
 .btn {
   border: 1px solid #4b1428;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 1em;
   color: #4b1428;
   text-decoration: none;
+  font-family: "lust-didone", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -125,10 +129,20 @@ body {
   margin-top: 2em;
 }
 
-@media only screen and (min-width: 25em) {
-
+.intro-container {
+  margin-top: 60px;
 }
 
+.intro-paragraph {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.projects-container h2, .about-container h2 {
+  color: #89636D;
+  text-align: center;
+  margin-top: 80px;
+}
 
 @media only screen and (min-width: 38em) {
   html {
@@ -165,6 +179,14 @@ body {
 
   .logo {
     max-width: 110px;
+  }
+
+  .projects-container h2, .about-container h2 {
+    margin-top: 150px;
+  }
+
+  .intro-container {
+    margin-top: 110px;
   }
 }
 
