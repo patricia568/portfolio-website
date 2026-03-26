@@ -8,14 +8,6 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="https://use.typekit.net/xxy6mij.css">
-
-  <script>
-    window.addEventListener("scroll", () => {
-      const bg = document.querySelector(".parallax-bg");
-      let offset = window.scrollY;
-      bg.style.transform = `translateY(${offset * 0.3}px)`;
-    });
-  </script>
 </head>
 <body>
   <header>
@@ -42,9 +34,10 @@
             <p class="offering milli">Graphic design • Illustrative design • Web design and development</p>
             <p class="intro-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. pariatur.</p>
             <div class="btn-container2">
-              <p><a class="btn" href="#">More about me</a></p>
+              <p><a class="btn" href="#about">More about me</a></p>
           </div>
       </div>
+    </div>
 
   <div class="grid max-length projects-container gutter">
       <div class="unit xs-1 s-1 m-1 l-1 xl-1 projects">
@@ -67,7 +60,7 @@
 
   <div class="grid wrapper about-container gutter">
     <div class="unit xs-1 s-1 m-1 l-1 xl-1 about">
-      <h2>About the artist</h2>
+      <h2 id="about">About the artist</h2>
     </div>
     <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
       <div class="grid">

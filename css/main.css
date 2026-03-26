@@ -32,7 +32,7 @@ font-style: italic;
 
 */
 
-
+@media only screen and (min-width: 20em) {
 html {
   box-sizing: border-box;
 
@@ -45,6 +45,7 @@ html {
   font-weight: 300;
   font-style: normal;
   color: #4b1428;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -123,7 +124,9 @@ body {
   color: #89636D;
 }
 
-
+.logo {
+  max-width: 100px;
+}
 
 .btn {
   border: 2px solid #4b1428;
@@ -178,7 +181,7 @@ body {
   width: 80px;
   display: block;
 }
-
+}
 
 @media only screen and (min-width: 38em) {
   html {
