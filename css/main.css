@@ -95,6 +95,15 @@ ul li {
   font-family: "lust-didone", serif;
   font-weight: 400;
   font-style: normal;
+  padding: 8px;
+  border-bottom: 2px solid transparent;
+
+  transition:
+    border-bottom 250ms ease-in-out;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #89636D;
 }
 
 
@@ -113,7 +122,7 @@ body {
 
 
 .btn {
-  border: 1px solid #4b1428;
+  border: 2px solid #4b1428;
   border-radius: 25px;
   padding: 1em;
   color: #4b1428;
@@ -121,6 +130,15 @@ body {
   font-family: "lust-didone", serif;
   font-weight: 400;
   font-style: normal;
+
+  transition:
+    background-color 250ms ease-in-out,
+    color 250ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #4b1428;
+  color: #efeae1;
 }
 
 
