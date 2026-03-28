@@ -33,154 +33,171 @@ font-style: italic;
 */
 
 @media only screen and (min-width: 20em) {
-html {
-  box-sizing: border-box;
+  html {
+    box-sizing: border-box;
 
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  background-color: #efeae1;
-  font-family: "acumin-pro", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #4b1428;
-  scroll-behavior: smooth;
-}
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background-color: #efeae1;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #4b1428;
+    scroll-behavior: smooth;
+  }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+  *, *::before, *::after {
+    box-sizing: inherit;
 
-}
-
-
-
-.img-flex {
-  display: block;
-  max-width: 100%;
-}
-
-h1 {
-  font-family: "altesse-std-64pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  margin-top: 15px;
-  color: #4b1428;
-  margin-bottom: 0;
-  font-size: 50em;
-}
-
-h2 {
-  font-family: "lust-didone", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-ul {
-  list-style-type: none; /* Removes bullet points */
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  display: flex;
-  align-items: center; /* Vertical alignment */
-  justify-content: center; /* Horizontal alignment (optional) */
-}
+  }
 
 
-ul li {
-  display: inline-block; /* Makes the items sit next to each other */
-  padding: 10px; /* Adds space around the items */
 
-}
+  .img-flex {
+    display: block;
+    max-width: 100%;
+  }
 
-.nav a{
-  color: #4b1428;
-  text-decoration: none;
-  font-family: "lust-didone", serif;
-  font-weight: 400;
-  font-style: normal;
-  padding: 8px;
-  border-bottom: 2px solid transparent;
+  h1 {
+    font-family: "altesse-std-64pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 15px;
+    color: #4b1428;
+    margin-bottom: 0;
+    font-size: 50em;
+  }
 
-  transition:
-    border-bottom 250ms ease-in-out;
-}
+  h2 {
+    font-family: "lust-didone", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-.nav a:hover {
-  border-bottom: 2px solid #89636D;
-}
-
-
-body {
-  margin: 0;
-}
-
-.offering {
-  color: #89636D;
-}
-
-.touch {
-  color: #89636D;
-}
-
-.logo {
-  max-width: 100px;
-}
-
-.btn {
-  border: 2px solid #4b1428;
-  border-radius: 25px;
-  padding: 1em;
-  color: #4b1428;
-  text-decoration: none;
-  font-family: "lust-didone", serif;
-  font-weight: 400;
-  font-style: normal;
-
-  transition:
-    background-color 250ms ease-in-out,
-    color 250ms ease-in-out;
-}
-
-.btn:hover {
-  background-color: #4b1428;
-  color: #efeae1;
-}
+  ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment (optional) */
+  }
 
 
-.btn-container {
-  text-align: center;
-  margin-top: 2em;
-}
+  ul li {
+    display: inline-block; /* Makes the items sit next to each other */
+    padding: 10px; /* Adds space around the items */
 
-.intro-container {
-  margin-top: 60px;
-}
+  }
 
-.intro-paragraph {
-  margin-top: 25px;
-  margin-bottom: 50px;
-}
+  .nav a{
+    color: #4b1428;
+    text-decoration: none;
+    font-family: "lust-didone", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
 
-.projects-container h2, .about-container h2 {
-  color: #89636D;
-  text-align: center;
-  margin-top: 80px;
-}
+    transition:
+      border-bottom 250ms ease-in-out;
+  }
 
-.page-container {
-    position: relative;
-}
+  .nav a:hover {
+    border-bottom: 2px solid #89636D;
+  }
 
-.left-flower {
-  position: absolute;
-  top: 17.5%;
-  left: 0%;
-  z-index: 0;
-  width: 80px;
-  display: block;
-}
+
+  body {
+    margin: 0;
+  }
+
+  .offering {
+    color: #89636D;
+  }
+
+  .touch {
+    color: #89636D;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .btn {
+    border: 2px solid #4b1428;
+    border-radius: 25px;
+    padding: 1em;
+    color: #4b1428;
+    text-decoration: none;
+    font-family: "lust-didone", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition:
+      background-color 250ms ease-in-out,
+      color 250ms ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #4b1428;
+    color: #efeae1;
+  }
+
+
+  .btn-container {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .intro-container {
+    margin-top: 60px;
+  }
+
+  .intro-paragraph {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .projects-container h2 {
+    color: #89636D;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .about-container {
+    margin-top: 80px;
+  }
+
+  .about {
+    color: #89636D;
+  }
+
+  .page-container {
+      position: relative;
+  }
+
+  .left-flower {
+    position: absolute;
+    top: 17.5%;
+    left: 0%;
+    z-index: 0;
+    width: 80px;
+    display: block;
+  }
+
+  .contact-container {
+    background-color: #89636D;
+  }
+
+  .contact {
+    text-align: center;
+    color: white;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -220,9 +237,10 @@ body {
     max-width: 110px;
   }
 
-  .projects-container h2, .about-container h2 {
+  .projects-container h2, .about-container {
     margin-top: 150px;
   }
+
 
   .intro-container {
     margin-top: 110px;
