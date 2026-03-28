@@ -178,10 +178,11 @@ font-style: italic;
   .left-flower {
     position: absolute;
     top: 15%;
-    right: -22%;
+    right: -15%;
     z-index: -1;
     width: 200px;
     display: block;
+    transform: scaleX(-1);
   }
 
   .contact-container {
@@ -227,6 +228,7 @@ font-style: italic;
     top: -3%;
     left: -6%;
     width: 200px;
+    transform: none;
   }
 
 }
