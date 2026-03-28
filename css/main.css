@@ -53,8 +53,6 @@ font-style: italic;
 
   }
 
-
-
   .img-flex {
     display: block;
     max-width: 100%;
@@ -177,16 +175,12 @@ font-style: italic;
     color: #89636D;
   }
 
-  .page-container {
-      position: relative;
-  }
-
   .left-flower {
     position: absolute;
-    top: 17.5%;
-    left: 0%;
-    z-index: 0;
-    width: 80px;
+    top: 15%;
+    right: -22%;
+    z-index: -1;
+    width: 200px;
     display: block;
   }
 
@@ -197,6 +191,11 @@ font-style: italic;
   .contact {
     text-align: center;
     color: white;
+  }
+
+  .about-img {
+    border-radius: 1000px;
+    text-align: center;
   }
 }
 
@@ -218,6 +217,16 @@ font-style: italic;
 
   .logo {
     max-width: 90px;
+  }
+
+  .page-container {
+      position: relative;
+  }
+
+  .left-flower {
+    top: -3%;
+    left: -6%;
+    width: 200px;
   }
 
 }
