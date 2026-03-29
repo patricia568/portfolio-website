@@ -93,7 +93,7 @@ font-style: italic;
 
   }
 
-  .nav a{
+  .nav-item {
     color: #4b1428;
     text-decoration: none;
     font-family: "lust-didone", serif;
@@ -106,8 +106,28 @@ font-style: italic;
       border-bottom 250ms ease-in-out;
   }
 
-  .nav a:hover {
+  .nav-item:hover {
     border-bottom: 2px solid #89636D;
+  }
+
+  .nav-logo {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    transform: scale(1);
+  }
+
+  .nav-logo:hover {
+    transform: scale(1.2);
+  }
+
+  .project-item {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    transform: scale(1);
+  }
+
+  .project-item:hover {
+    transform: scale(1.1);
   }
 
 
@@ -192,7 +212,7 @@ font-style: italic;
 
   .right-flower {
     position: absolute;
-    bottom: 20%;
+    bottom: 14%;
     right: -25%;
     z-index: -1;
     width: 400px;
@@ -224,7 +244,7 @@ font-style: italic;
     height: auto;
   }
 
-  #about {
+  #about, .contact {
     display: flex;
     align-items: center;
   }
