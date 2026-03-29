@@ -54,6 +54,10 @@ font-style: italic;
 
   }
 
+  @view-transition {
+  navigation: auto;
+}
+
   .img-flex {
     display: block;
     max-width: 100%;
@@ -173,6 +177,16 @@ font-style: italic;
     margin-top: 2em;
   }
 
+  .top-btn-container {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .top-btn {
+    text-decoration: none;
+    color: white;
+  }
+
   .intro-container {
     margin-top: 60px;
   }
@@ -244,11 +258,16 @@ font-style: italic;
     height: auto;
   }
 
-  #about, .contact {
+  #about, #contact {
     display: flex;
     align-items: center;
   }
 
+  .case-studies-heading, .illustrations-heading {
+    color: #89636D;
+    margin-top: 40px;
+    text-align: center;
+  }
   /*.slide-menu {
     position: fixed;
     right: -100%;
@@ -264,6 +283,8 @@ font-style: italic;
   /*#menu-toggle:checked ~ .slide-menu {
     right: 0;
   }*/
+
+
 
 }
 
