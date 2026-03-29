@@ -11,14 +11,13 @@
 </head>
 <body>
   <header>
+    <input type="checkbox" id="menu-toggle" class="trigger" hidden>
 
-    <nav>
-      <!-- Link to the menu ID to open -->
-<a href="#slide-nav" class="open-btn">&#9776; Open Menu</a>
-
-<div id="slide-nav" class="slide-content">
-    <!-- Link back to a non-existent ID or the previous page to close -->
-    <a href="#" class="close-btn">&times; Close Menu</a>
+    <!-- The label is used to click and toggle the checkbox -->
+    <!--<label for="menu-toggle" class="hamburger-btn">
+        <span class="hamburger-icon"></span>
+    </label>-->
+    <nav class="slide-menu">
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -30,7 +29,6 @@
         <li><a href="portfolio/index.html">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      </div>
     </nav>
   </header>
   <div class="page-container wrapper">

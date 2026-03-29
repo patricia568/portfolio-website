@@ -211,14 +211,14 @@ font-style: italic;
 
   .about-img {
     border-radius: 1000px;
-    max-width: 70%;
+    max-width: 63%;
     margin-left: auto; /* Distributes available space on the left */
     margin-right: auto; /* Distributes available space on the right */
     height: auto;
   }
 
   .project-1, .project-2, .project-3 {
-    max-width: 70%;
+    max-width: 63%;
     margin-left: auto; /* Distributes available space on the left */
     margin-right: auto; /* Distributes available space on the right */
     height: auto;
@@ -229,18 +229,21 @@ font-style: italic;
     align-items: center;
   }
 
-  .slide-content {
-      /* Hide off-screen initially */
-      visibility: hidden;
-      right: -100%;
-      /* ... (other styles like position: fixed, width, transition) ... */
-  }
+  /*.slide-menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f1f1f1;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }*/
 
-  /* When the div is targeted by the URL hash, make it visible and bring it on-screen */
-  .slide-content:target {
-      visibility: visible;
-      right: 0;
-  }
+  /* When the checkbox is checked, slide the menu into view */
+  /*#menu-toggle:checked ~ .slide-menu {
+    right: 0;
+  }*/
 
 }
 
