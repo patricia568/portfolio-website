@@ -11,7 +11,14 @@
 </head>
 <body>
   <header>
+
     <nav>
+      <!-- Link to the menu ID to open -->
+<a href="#slide-nav" class="open-btn">&#9776; Open Menu</a>
+
+<div id="slide-nav" class="slide-content">
+    <!-- Link back to a non-existent ID or the previous page to close -->
+    <a href="#" class="close-btn">&times; Close Menu</a>
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -23,12 +30,13 @@
         <li><a href="portfolio/index.html">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      </div>
     </nav>
   </header>
   <div class="page-container wrapper">
     <h1>Patricia Danochristos</h1>
     <div class="max-length intro-container gutter">
-      <img class="left-flower" src="images/flower.svg" alt="">
+      <img class="left-flower" src="images/flower-left.svg" alt="">
           <div class="intro-box">
             <h2 class="push-0">Thoughtful design with a <span class="touch"><em>touch</em></span> of character.</h2>
             <p class="offering milli">Graphic design • Illustrative design • Web design and development</p>
@@ -40,17 +48,18 @@
     </div>
 
   <div class="grid max-length projects-container gutter">
+    <img class="right-flower" src="images/flower-right.svg" alt="">
       <div class="unit xs-1 s-1 m-1 l-1 xl-1 projects">
         <h2>Projects</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
-        <img class="img-flex" src="images/project-placeholder.png" alt="">
+        <img class="img-flex project-1" src="images/project-placeholder.png" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
-        <img class="img-flex" src="images/project-placeholder.png" alt="">
+        <img class="img-flex project-2" src="images/project-placeholder.png" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
-        <img class="img-flex" src="images/project-placeholder.png" alt="">
+        <img class="img-flex project-3" src="images/project-placeholder.png" alt="">
       </div>
 
       <div class="unit xs-1 s-1 m-1 l-1 xl-1 btn-container">
@@ -58,13 +67,13 @@
       </div>
   </div>
   <div class="about-container">
-    <div class="grid max-length gutter">
-      <div class="unit xs-1 s-1-3 m-1-3 l-1-3 xl-1-3 island-1-2">
+    <div class="grid max-length gutter" id="about">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-2">
         <img class="img-flex about-img" src="images/profile-pic.jpg" alt="">
       </div>
 
-      <div class="unit xs-1 s-2-3 m-2-3 l-2-3 xl-2-3 island-1-2">
-        <h2 class="about" id="about">About the artist</h2>
+      <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 island-1-2">
+        <h2 class="about-heading">About the artist</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. pariatur.</p>
       </div>
 
@@ -75,11 +84,11 @@
 
   <div class="contact-container">
     <div class="grid max-length gutter">
-      <div class="unit xs-1 s-2-3 m-2-3 l-2-3 xl-2-3 island-1-2">
-        <h2 class="contact" id="contact">I'd love to hear from you.</h2>
+      <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 island-1-2">
+        <h2 class="contact-heading" id="contact">I'd love to hear from you.</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. pariatur.</p>
       </div>
-      <div class="unit xs-1 s-1-3 m-1-3 l-1-3 xl-1-3 island-1-2">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-2">
         <img class="img-flex about-img" src="images/square-placeholder.jpg" alt="">
       </div>
     </div>

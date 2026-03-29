@@ -46,6 +46,7 @@ font-style: italic;
     font-style: normal;
     color: #4b1428;
     scroll-behavior: smooth;
+    overflow-x: hidden; /* Hides horizontal overflow */
   }
 
   *, *::before, *::after {
@@ -171,33 +172,76 @@ font-style: italic;
     margin-top: 80px;
   }
 
-  .about {
+  .about-heading {
     color: #89636D;
+    margin-top: 40px;
+  }
+
+  .page-container {
+    position: relative;
   }
 
   .left-flower {
     position: absolute;
-    top: 15%;
-    right: -15%;
+    top: 0%;
+    left: -15%;
     z-index: -1;
-    width: 200px;
+    width: 400px;
     display: block;
-    transform: scaleX(-1);
+  }
+
+  .right-flower {
+    position: absolute;
+    bottom: 20%;
+    right: -25%;
+    z-index: -1;
+    width: 400px;
+    display: block;
   }
 
   .contact-container {
     background-color: #89636D;
+    margin-top: 80px;
+    color: white;
   }
 
-  .contact {
-    text-align: center;
-    color: white;
+  .contact-heading {
+    margin-top: 40px;
   }
 
   .about-img {
     border-radius: 1000px;
-    text-align: center;
+    max-width: 70%;
+    margin-left: auto; /* Distributes available space on the left */
+    margin-right: auto; /* Distributes available space on the right */
+    height: auto;
   }
+
+  .project-1, .project-2, .project-3 {
+    max-width: 70%;
+    margin-left: auto; /* Distributes available space on the left */
+    margin-right: auto; /* Distributes available space on the right */
+    height: auto;
+  }
+
+  #about {
+    display: flex;
+    align-items: center;
+  }
+
+  .slide-content {
+      /* Hide off-screen initially */
+      visibility: hidden;
+      right: -100%;
+      /* ... (other styles like position: fixed, width, transition) ... */
+  }
+
+  /* When the div is targeted by the URL hash, make it visible and bring it on-screen */
+  .slide-content:target {
+      visibility: visible;
+      right: 0;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -220,15 +264,20 @@ font-style: italic;
     max-width: 90px;
   }
 
-  .page-container {
-      position: relative;
-  }
-
   .left-flower {
     top: -3%;
     left: -6%;
     width: 200px;
-    transform: none;
+  }
+
+  .right-flower {
+    top: 20%;
+    right: 0%;
+    width: 200px;
+  }
+
+  .project-1, .project-2, .project-3, .about-img {
+    max-width: 100%;
   }
 
 }
@@ -259,7 +308,13 @@ font-style: italic;
 
   .left-flower {
     top: 0;
-    left: -7%;
+    left: -10%;
+    width: 275px;
+  }
+
+  .right-flower {
+    top: 25%;
+    right: -7%;
     width: 275px;
   }
 }
@@ -271,7 +326,13 @@ font-style: italic;
 
   .left-flower {
     top: 0;
-    left: -20%;
+    left: -15%;
+    width: 350px;
+  }
+
+  .right-flower {
+    top: 24%;
+    right: -15%;
     width: 350px;
   }
 
