@@ -242,15 +242,17 @@ font-style: italic;
     margin-top: 80px;
   }
 
+  .illustrations-heading {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+  }
+
   .contact-heading {
     margin-top: 40px;
     color: white;
   }
 
-  .illustrations-heading {
-    margin-top: 40px;
-    color: white;
-  }
 
   .about-img {
     border-radius: 1000px;
@@ -272,7 +274,7 @@ font-style: italic;
     align-items: center;
   }
 
-  .case-studies-heading, .illustrations-heading {
+  .case-studies-heading {
     color: #89636D;
     margin-top: 40px;
     text-align: center;
