@@ -124,7 +124,7 @@ font-style: italic;
     transform: scale(1.2);
   }
 
-  .project-item {
+  .project-item, .case-study-item {
     display: inline-block;
     transition: transform 0.2s ease;
     transform: scale(1);
@@ -132,6 +132,10 @@ font-style: italic;
 
   .project-item:hover {
     transform: scale(1.1);
+  }
+
+  .case-study-item:hover {
+    transform: scale(1.05);
   }
 
 
@@ -143,7 +147,7 @@ font-style: italic;
     color: #89636D;
   }
 
-  .touch {
+  .accent-colour {
     color: #89636D;
   }
 
@@ -233,14 +237,19 @@ font-style: italic;
     display: block;
   }
 
-  .contact-container {
+  .contact-container, .illustrations {
     background-color: #89636D;
     margin-top: 80px;
-    color: white;
   }
 
   .contact-heading {
     margin-top: 40px;
+    color: white;
+  }
+
+  .illustrations-heading {
+    margin-top: 40px;
+    color: white;
   }
 
   .about-img {
@@ -294,11 +303,6 @@ font-style: italic;
     line-height: 1.4;
   }
 
-  ul.nav {
-    margin-bottom: 5px;
-    margin-left: 35px;
-  }
-
   ul li {
     padding: 40px;
 
@@ -330,10 +334,6 @@ font-style: italic;
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  .intro-box {
-    margin-left: 20px;
   }
 
 
