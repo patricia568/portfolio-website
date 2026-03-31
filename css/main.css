@@ -124,7 +124,7 @@ font-style: italic;
     transform: scale(1.2);
   }
 
-  .project-item, .case-study-item {
+  .project-item, .case-study-item, .illustrative-item {
     display: inline-block;
     transition: transform 0.2s ease;
     transform: scale(1);
@@ -134,7 +134,7 @@ font-style: italic;
     transform: scale(1.1);
   }
 
-  .case-study-item:hover {
+  .case-study-item:hover, .illustrative-item:hover {
     transform: scale(1.05);
   }
 
@@ -237,7 +237,7 @@ font-style: italic;
     display: block;
   }
 
-  .contact-container, .illustrations {
+  .contact-container {
     background-color: #89636D;
     margin-top: 80px;
   }
@@ -295,6 +295,22 @@ font-style: italic;
     right: 0;
   }*/
 
+  .illustrations {
+    background-color: #89636D;
+    margin-top: 80px;
+  }
+
+  .illustrations-container {
+    position: relative;
+  }
+
+  .curved-flower-right {
+    position: absolute;
+    top: 0%;
+    right: -20%;
+    z-index: 0;
+    width: 200px;
+  }
 
 
 }
@@ -330,6 +346,12 @@ font-style: italic;
     max-width: 100%;
   }
 
+  .curved-flower-right {
+    top: 12%;
+    right: -30%;
+    width: 325px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -363,6 +385,12 @@ font-style: italic;
     right: -7%;
     width: 275px;
   }
+
+  .curved-flower-right {
+    top: 12%;
+    right: -35%;
+    width: 325px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -380,6 +408,12 @@ font-style: italic;
     top: 24%;
     right: -15%;
     width: 350px;
+  }
+
+  .curved-flower-right {
+    top: 12%;
+    right: -50%;
+    width: 400px;
   }
 
 
