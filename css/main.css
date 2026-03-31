@@ -306,10 +306,18 @@ font-style: italic;
 
   .curved-flower-right {
     position: absolute;
-    top: 0%;
-    right: -20%;
+    top: 30%;
+    right: -40%;
     z-index: 0;
-    width: 200px;
+    width: 400px;
+  }
+
+  .curved-flower-left {
+    position: absolute;
+    bottom: 30%;
+    left: -40%;
+    z-index: 0;
+    width: 400px;
   }
 
 
@@ -352,6 +360,12 @@ font-style: italic;
     width: 325px;
   }
 
+  .curved-flower-left {
+    bottom: 12%;
+    left: -35%;
+    width: 325px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -388,7 +402,13 @@ font-style: italic;
 
   .curved-flower-right {
     top: 12%;
-    right: -35%;
+    right: -40%;
+    width: 325px;
+  }
+
+  .curved-flower-left {
+    bottom: 12%;
+    left: -45%;
     width: 325px;
   }
 }
@@ -412,7 +432,13 @@ font-style: italic;
 
   .curved-flower-right {
     top: 12%;
-    right: -50%;
+    right: -45%;
+    width: 400px;
+  }
+
+  .curved-flower-left {
+    bottom: 10%;
+    left: -50%;
     width: 400px;
   }
 
