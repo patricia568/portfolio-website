@@ -107,11 +107,13 @@ font-style: italic;
     border-bottom: 2px solid transparent;
 
     transition:
-      border-bottom 250ms ease-in-out;
+      border-bottom 250ms ease-in-out,
+      color 250ms ease-in-out;
   }
 
   .nav-item:hover {
     border-bottom: 2px solid #89636D;
+    color: #89636D;
   }
 
   .nav-logo {
@@ -191,6 +193,12 @@ font-style: italic;
     color: white;
   }
 
+  .active {
+    border-bottom: 2px solid #89636D;
+    color: #89636D;
+
+  }
+
   .intro-container {
     margin-top: 60px;
   }
@@ -240,6 +248,7 @@ font-style: italic;
   .contact-container {
     background-color: #89636D;
     margin-top: 80px;
+    color: white;
   }
 
   .illustrations-heading {
@@ -250,7 +259,6 @@ font-style: italic;
 
   .contact-heading {
     margin-top: 40px;
-    color: white;
   }
 
 
@@ -309,15 +317,15 @@ font-style: italic;
     top: 30%;
     right: -40%;
     z-index: 0;
-    width: 400px;
+    width: 300px;
   }
 
   .curved-flower-left {
     position: absolute;
-    bottom: 30%;
+    bottom: 28%;
     left: -40%;
     z-index: 0;
-    width: 400px;
+    width: 300px;
   }
 
 
