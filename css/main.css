@@ -328,6 +328,9 @@ font-style: italic;
     width: 300px;
   }
 
+  .neg-mrgn {
+    margin-top: -50px;
+  }
 
 }
 
@@ -410,14 +413,14 @@ font-style: italic;
 
   .curved-flower-right {
     top: 12%;
-    right: -40%;
-    width: 325px;
+    right: -25%;
+    width: 350px;
   }
 
   .curved-flower-left {
     bottom: 12%;
-    left: -45%;
-    width: 325px;
+    left: -30%;
+    width: 350px;
   }
 }
 
@@ -440,13 +443,13 @@ font-style: italic;
 
   .curved-flower-right {
     top: 12%;
-    right: -45%;
+    right: -25%;
     width: 400px;
   }
 
   .curved-flower-left {
     bottom: 10%;
-    left: -50%;
+    left: -30%;
     width: 400px;
   }
 
