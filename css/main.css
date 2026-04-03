@@ -44,7 +44,7 @@ font-style: italic;
     font-family: "acumin-pro", sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: #4b1428;
+    color: #604c49;
     scroll-behavior: smooth;
     overflow-x: hidden; /* Hides horizontal overflow */
   }
@@ -197,7 +197,62 @@ font-style: italic;
   .top-btn-projects {
     color: #4b1428;
     text-decoration: none;
+    transition: all 200ms ease;
   }
+
+  .top-btn-projects:hover {
+    color: #89636D;
+  }
+
+  .link-next, .link-prev {
+    text-decoration: none;
+  }
+
+  .link-heading1{
+    color: #4b1428;
+    font-family: "lust-didone", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .link-heading2 {
+    color: #89636D;
+  }
+
+  .link-1 {
+  border-right: 1px solid #89636D;
+  padding-right: 20px
+
+}
+
+.link-2 {
+  border-left: 1px solid #89636D;
+  padding-left: 20px
+}
+
+.link-prev h3, .link-prev p{
+  transition: all 200ms ease;
+}
+
+.link-prev:hover h3 {
+  transform: translateX(-0.75em);
+}
+
+.link-prev:hover p {
+  transform: translateX(0.75em);
+}
+
+.link-next h3, .link-next p{
+  transition: all 200ms ease;
+}
+
+.link-next:hover h3 {
+  transform: translateX(0.75em);
+}
+
+.link-next:hover p {
+  transform: translateX(-0.75em);
+}
 
   .active {
     border-bottom: 2px solid #89636D;
@@ -377,16 +432,19 @@ font-style: italic;
     color: white;
     text-decoration: none;
     font-family: "lust-didone", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
   }
 
   .project-heading1 {
-    color: #89636D;
+    color: #4b1428;
+    text-decoration: none;
+    font-family: "lust-didone", serif;
+    font-weight: 400;
   }
 
   .project-heading2 {
-    color: pink;
+    color: #89636D;
   }
 
   /*#zoom-toggle {
