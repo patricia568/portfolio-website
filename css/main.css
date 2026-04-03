@@ -184,7 +184,7 @@ font-style: italic;
     margin-top: 2em;
   }
 
-  .top-btn-container {
+  .top-btn-container, .top-btn-container-projects {
     text-align: center;
     margin-top: 2em;
   }
@@ -192,6 +192,11 @@ font-style: italic;
   .top-btn {
     text-decoration: none;
     color: white;
+  }
+
+  .top-btn-projects {
+    color: #4b1428;
+    text-decoration: none;
   }
 
   .active {
@@ -376,6 +381,57 @@ font-style: italic;
     font-style: normal;
   }
 
+  .project-heading1 {
+    color: #89636D;
+  }
+
+  .project-heading2 {
+    color: pink;
+  }
+
+  /*#zoom-toggle {
+    display: none;
+  }
+
+  .zoom-container img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+  }
+
+  #zoom-toggle:checked ~ label img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.9);
+    cursor: zoom-out;
+    transform: scale(1);
+  }*/
+
+  .case-study-intro {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .dep-graphic {
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-section-container {
+    margin-top: 80px;
+  }
+
+  .palette-container {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -465,6 +521,11 @@ font-style: italic;
     bottom: 12%;
     left: -30%;
     width: 350px;
+  }
+
+  .dep-graphic {
+    max-height: 350px;
+
   }
 }
 
