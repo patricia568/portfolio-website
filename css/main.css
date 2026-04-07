@@ -93,10 +93,13 @@ font-style: italic;
 
   ul li {
     display: inline-block; /* Makes the items sit next to each other */
-    padding: 10px; /* Adds space around the items */
+    padding: 5px; /* Adds space around the items */
 
   }
 
+  header {
+    margin-top: 30px
+  }
   .nav-item {
     color: #4b1428;
     text-decoration: none;
@@ -155,7 +158,7 @@ font-style: italic;
   }
 
   .logo {
-    max-width: 100px;
+    max-width: 90px;
   }
 
   .btn {
@@ -352,7 +355,7 @@ font-style: italic;
     position: fixed;
     right: -100%;
     top: 0;
-    width: 250px;
+    width: 100px;
     height: 100%;
     background-color: #f1f1f1;
     transition: right 0.3s ease-in-out;
@@ -363,6 +366,8 @@ font-style: italic;
   /*#menu-toggle:checked ~ .slide-menu {
     right: 0;
   }*/
+
+
 
   .illustrations {
     background-color: #89636D;
@@ -498,10 +503,7 @@ font-style: italic;
     line-height: 1.4;
   }
 
-  ul li {
-    padding: 40px;
 
-  }
 
   .logo {
     max-width: 90px;
