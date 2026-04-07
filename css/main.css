@@ -129,7 +129,7 @@ font-style: italic;
     transform: scale(1.2);
   }
 
-  .project-item, .case-study-item, .illustrative-item {
+  .project-item, .case-study-item {
     display: inline-block;
     transition: transform 0.2s ease;
     transform: scale(1);
@@ -139,7 +139,7 @@ font-style: italic;
     transform: scale(1.1);
   }
 
-  .case-study-item:hover, .illustrative-item:hover {
+  .case-study-item:hover {
     transform: scale(1.05);
   }
 
@@ -435,6 +435,53 @@ font-style: italic;
 
   .card-text {
     color: white;
+    text-decoration: none;
+    font-family: "lust-didone", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .hex {
+    transition: all 0.2s ease;
+  }
+
+  .hex:hover {
+    transform: scale(1.02);
+  }
+
+  .illustrative-item {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    transform: scale(1);
+  }
+
+  .hex-container {
+    position: relative;
+    display: inline-block;
+    transition: all .2s ease;
+  }
+
+  .hex-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    transition: all .2s ease;
+    opacity: 0;
+  }
+
+  .hex-container:hover .hex-hover {
+    opacity: 1;
+  }
+
+  .hex-container:hover {
+    transform: scale(1.05);
+  }
+
+
+  .hex-text {
+    color: #4b1428;
     text-decoration: none;
     font-family: "lust-didone", serif;
     font-weight: 200;
