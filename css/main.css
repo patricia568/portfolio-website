@@ -147,6 +147,7 @@ font-style: italic;
 
   body {
     margin: 0;
+    overflow: hidden;
   }
 
   .offering {
@@ -300,17 +301,19 @@ font-style: italic;
     top: 0%;
     left: -15%;
     z-index: -1;
-    width: 400px;
+    width: 250px;
     display: block;
+    object-fit: cover;
   }
 
   .right-flower {
     position: absolute;
-    bottom: 14%;
+    bottom: 30%;
     right: -25%;
     z-index: -1;
-    width: 400px;
+    width: 250px;
     display: block;
+    object-fit: cover;
   }
 
   .contact-container {
@@ -389,6 +392,7 @@ font-style: italic;
     right: -35%;
     z-index: 0;
     width: 300px;
+    object-fit: cover;
   }
 
   .curved-flower-left {
@@ -397,6 +401,7 @@ font-style: italic;
     left: -40%;
     z-index: 0;
     width: 300px;
+    object-fit: cover;
   }
 
   .neg-mrgn {
@@ -569,7 +574,7 @@ font-style: italic;
 
   .right-flower {
     top: 20%;
-    right: 0%;
+    right: -5%;
     width: 200px;
   }
 
@@ -619,7 +624,7 @@ font-style: italic;
 
   .right-flower {
     top: 25%;
-    right: -7%;
+    right: -9%;
     width: 275px;
   }
 
