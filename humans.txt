@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Patricia Danochristos <pdano007@gmail.com>
+Site: http://pdano.ca
+GitHub: https://github.com/patricia568
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+(This is the place where you put sources of things)
+(Locations where you got icons, etc.)
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+Software used: Atom, Github
+
+## Hosting
+
+Website hosted on Netlify.
