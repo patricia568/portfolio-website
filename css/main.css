@@ -578,6 +578,11 @@ font-style: italic;
     margin-bottom: auto;
   }
 
+ .footer-dark {
+   background-color: #89636D;
+   color: white;
+ }
+
 
 
 }
