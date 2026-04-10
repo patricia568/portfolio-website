@@ -143,7 +143,15 @@ font-style: italic;
     transform: scale(1.05);
   }
 
+  .email-icon {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    transform: scale(1);
+  }
 
+  .email-icon:hover {
+    transform: scale(1.2);
+  }
 
   body {
     margin: 0;
@@ -323,9 +331,21 @@ font-style: italic;
     padding-bottom: 30px;
   }
 
+  .contact-box {
+    position: relative;
+  }
+
+  .email-flower {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    width: 115px;
+  }
+
   .email-img {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
   }
 
   .illustrations-heading {
@@ -448,6 +468,7 @@ font-style: italic;
   }
 
 
+
   .card-text {
     color: white;
     text-decoration: none;
@@ -557,6 +578,14 @@ font-style: italic;
     margin-bottom: auto;
   }
 
+
+
+}
+@media only screen and (min-width: 25em) {
+  .email-flower {
+    top: 25%;
+    right: 1%;
+    width: 135px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -565,7 +594,9 @@ font-style: italic;
     line-height: 1.4;
   }
 
-
+  .email-img {
+    margin-top: 0;
+  }
 
   .logo {
     max-width: 90px;
@@ -597,6 +628,12 @@ font-style: italic;
     bottom: 12%;
     left: -35%;
     width: 325px;
+  }
+
+  .email-flower {
+    top: -5%;
+    right: -10%;
+    width: 200px;
   }
 
 }
@@ -647,7 +684,12 @@ font-style: italic;
 
   .dep-graphic {
     max-height: 350px;
+  }
 
+  .email-flower {
+    top: -5%;
+    right: -10%;
+    width: 250px;
   }
 }
 
@@ -679,6 +721,13 @@ font-style: italic;
     left: -30%;
     width: 400px;
   }
+
+  .email-flower {
+    top: -5%;
+    right: -10%;
+    width: 250px;
+  }
+
 
 
 }
