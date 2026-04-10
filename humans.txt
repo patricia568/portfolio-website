@@ -3,7 +3,7 @@
 # TEAM
 
 Designer & Developer: Patricia Danochristos <pdano007@gmail.com>
-Site: http://pdano.ca
+Site: https://pdano.ca
 GitHub: https://github.com/patricia568
 Location: Ottawa, Canada
 
