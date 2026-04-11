@@ -1,3 +1,5 @@
+theme: jekyll_patternbot
+
 lsi: false
 safe: true
 source: portfolio-website
