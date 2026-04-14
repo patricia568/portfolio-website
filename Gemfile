@@ -2,5 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll_patternbot"
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+group :jekyll_plugins do
+  gem "jekyll_patternbot"
+end
